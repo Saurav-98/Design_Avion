@@ -1,16 +1,20 @@
 import styled from 'styled-components';
-import AnimatedShaped from './components/AnimatedShaped';
+import Feature from './components/Feature';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Container>
-      <Navbar />
-      <Intro />
-      <IntroShape />
-      <AnimatedShaped />
-    </Container>
+    <>
+      <Container>
+        <Navbar />
+        <Intro />
+        <IntroShape />
+      </Container>
+      <Container>
+        <Feature />
+      </Container>
+    </>
   );
 }
 

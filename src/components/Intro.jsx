@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import woman from '../img/woman-3-removebg-preview.png';
+import AnimatedShaped from './AnimatedShaped';
 
 const Container = styled.section`
   height: calc(100vh - 120px);
@@ -87,6 +88,7 @@ const Intro = () => {
       <Right>
         <Image src={woman} alt={'Woman Photo'} />
       </Right>
+      <AnimatedShaped />
     </Container>
   );
 };
